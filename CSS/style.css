@@ -1,0 +1,398 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.alogo{
+    max-width: 200px;
+}
+
+.logo{
+    max-height: 50px;
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    max-width: 200px;
+}
+
+.itensnav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    /* max-width: 25%; */
+}
+
+.itensnav ul{
+    padding: 0;
+}
+
+.navbar{
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(64, 153, 255, 0.788);
+}
+
+.divnavbar{
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 768px;
+    justify-content: center;
+}
+
+.navbar div ul{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    flex-wrap: nowrap;
+}
+
+.navbar div ul li{
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+}
+
+.barranav{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control{
+    border-radius: 15px;
+    /* margin: 5px; */
+}
+
+.btnsearch{
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.iconsearch{
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-item img{
+    max-height: 650px;
+}
+
+.carousel button{
+    max-height: 650px;
+}
+
+
+.pagination{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.botao-sessao{
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 300px;
+    max-width: 250px;
+    background-color: transparent;
+    margin: 5px;
+    box-shadow: rgba(65, 65, 65, 0.2) 0px 3px 10px 0px;
+}
+
+.h2sessao{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.card{
+    border: none;
+}  
+
+.h2card{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+}
+
+.cardssessao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prod{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2prod{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.cardp{
+    align-items:center ;
+}
+
+.cardsprod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardsprod img{
+    height: 210px;
+    width: 210px;
+}
+
+.h3card{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.preco{
+    font-size: 20px;
+    margin: 0;
+}
+
+.botao-prod{
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 250px;
+    background-color: transparent;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.botao-prod img{
+    border-radius: 10px;
+}
+
+.btncompra{
+    width: 25%;
+    height: 20%;
+}
+
+.linkprod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.linkcompra{
+    background-color: rgba(64, 153, 255, 0.788);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+
+.navbottom{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(64, 153, 255, 0.788);
+    justify-content: center;
+    align-items: center;
+}
+
+.navbottom ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    margin: 0;
+}
+
+.navbottom ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+.navbottom ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.pagamentos{
+    justify-content: space-around;
+    background-color: rgba(64, 153, 255, 0.397);
+}
+
+.h4navbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight:  200px;
+}
+
+.contf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contm iframe{
+    max-width: 500px;
+    max-height: 250px;
+}
+
+
+.contatos ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contatos ul li{
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+}
+
+.contatos ul li ion-icon{
+    width: 48px;
+    height: 32px;
+}
+
+.formulario{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(248, 248, 248, 0.747);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.formulario label{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.formulario span{
+    padding: 10px;
+}
+
+.formulario label input{
+    background-color: rgba(209, 209, 209, 0.712);
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
+
+.timer{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.carouselamostra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+}
+
+.carouselamostra img{
+    height: 600px;
+    width: 800px;
+    border-radius: 10px;
+    
+}
+
+.cep{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.precoproduto{
+    color: rgba(28, 134, 255, 0.719);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btncomprarprod{
+    border-radius: 10px;
+    background-color:  rgba(64, 153, 255, 0.397);
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 75%;  
+    padding: 1%;
+    min-width: 150px;
+}
+
+.inputcep{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(226, 226, 226, 0.952);
+    width: 75%;
+    min-width: 100px;
+}
+
+
+.nossaloja li{
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.nossaloja li p{
+    color: blue;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.vermaisdetalhes{
+    font-size: 15px;
+}
+
+.btncep{
+    border-radius: 10px;
+    background-color:  rgba(64, 153, 255, 0.397);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+}
+
+@media screen and (max-width:768px){
+    .navbar div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estamparty</title>
+
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg ">
+
+    <div class="container-fluid d-flex justify-content-between col-12">
+        
+        <a class="alogo navbar-brand col-3" href="../index.html">
+            <img class="logo img-fluid" src="../img/logo.webp" alt="logo">
+        </a>
+        
+        <!-- barra de pesquisa -->
+        <form class="form-inline col-5 py-2 my-lg-0 barranav mx-2">
+          
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquise aqui..." aria-label="Pesquisar">
+          <button class="btnsearch btn-outline-success " type="submit">
+            <ion-icon class="iconsearch mt-1" name="search-outline"></ion-icon>
+          </button>
+        </form>
+        
+        <!-- barra de pesquisa -->
+        
+        <button class="navbar-toggler mx-4" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="itensnav collapse navbar-collapse col-md-auto col-sm-3" id="conteudoNavbarSuportado">
+          
+          <ul class="navbar-nav mr-auto mx-2">
+            
+            <li class="nav-item active m-3">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            
+            <li class="nav-item active m-3">
+              <a class="nav-link active" href="produtos.html">Produtos</a>
+            </li>
+            
+            <li class="nav-item active m-3">
+              <a class="nav-link active" href="faleconosco.html">Contatos</a>
+            </li>
+            
+            <li class="nav-item active m-3">
+              <a class="nav-link active" href="carrinho.html">
+                <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              </a>
+            </li>
+            
+            
+          </ul>
+          
+        </div>
+        
+                    
+      </div>
+
+      </nav>
+
+<!-- navbar -->
+
+    
+<div class="d-flex justify-content-center align-items-center d-flex">
+  
+  <div class="text-center">
+    <p class="timer" id="Relogio">HH:MM:SS</p>
+  </div>
+
+</div>
+
+<!-- Produtos em destaque -->
+<section class="col-12 px-5 prod container-fluid  d-flex justify-content-center">
+  
+  <div class="row prod">
+
+    <div class="col-12 py-5">
+      <h2 class="display-3 h2prod text-center">Produtos em destaque 3</h2>
+    </div>
+    
+    <div class="cardsprod py-3">
+   
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p1.webp" alt="bot2">
+          <h3 class="h3card my-2">Planner de Viagem Personalizado</h3>
+          <h3 class="preco">R$ 60,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p2.webp" alt="bot2">
+          <h3 class="h3card my-2">Álbum do Bebê Menina Personalizado + BRINDES</h3>
+          <h3 class="preco">R$ 115,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+      
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p3.webp" alt="bot2">
+          <h3 class="h3card my-2">Balinhas Personalizadas para Manicure</h3>
+          <h3 class="preco">R$ 19,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+      
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p4.webp" alt="bot2">
+          <h3 class="h3card my-2">Mini Lixas Personalizadas para clientes modelo Flork</h3>
+          <h3 class="preco">R$ 22,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p5.webp" alt="bot2">
+          <h3 class="h3card my-2">Lápis Personalizado</h3>
+          <h3 class="preco">R$ 40,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p6.webp" alt="bot2">
+          <h3 class="h3card my-2">Bloco de Notas Personalizado A6 Sem pauta</h3>
+          <h3 class="preco">R$ 305,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p7.webp" alt="bot2">
+          <h3 class="h3card my-2">Bloquinhos personalizados de 40 folhas Blocado</h3>
+          <h3 class="preco">R$ 114,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p8.webp" alt="bot2">
+          <h3 class="h3card my-2">100 Cartões de Visitas Holográficos Personalizados</h3>
+          <h3 class="preco">R$ 66,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p9.webp" alt="bot2">
+          <h3 class="h3card my-2">Bloco de Notas Personalizado A7 Blocado</h3>
+          <h3 class="preco">R$ 139,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p10.webp" alt="bot2">
+          <h3 class="h3card my-2">Card personalizado FLOR + lápis</h3>
+          <h3 class="preco">R$ 60,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p11.webp" alt="bot2">
+          <h3 class="h3card my-2">Card personalizado com brincos modelo flores</h3>
+          <h3 class="preco">R$ 52,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+      <button class="botao-prod col-3 col-md-4 col-lg-3">
+        <div class="cardp">
+          <img src="../img/p12.webp" alt="bot2">
+          <h3 class="h3card my-2">Mini Calendário Personalizado Imantado 5x9</h3>
+          <h3 class="preco">R$ 55,00</h3>
+          <div class="linkprod">
+            <a class="nav-link active linkcompra" aria-current="page" href="#">
+              <ion-icon name="bag-handle-outline" size="large"> </ion-icon>
+              Compra
+            </a>
+          </div>
+        </div>
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Produtos em destaque -->
+
+<!-- paginação -->
+
+<nav aria-label="Navegação de página exemplo">
+  <ul class="pagination py-3">
+    <li class="page-item">
+      <a class="page-link" href="produtos2.html" aria-label="Anterior">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only"></span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="produtos.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="produtos2.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="produtos3.html">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="produtos3.html" aria-label="Próximo">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only"></span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<!-- paginação -->
+
+  <!-- rodapé -->
+
+  <nav class="navbottom px-0 container-fluid navbar-expand-lg ">
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/estampartypaper2"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+    </li>
+
+    <li>
+        <a href="https://www.instagram.com/estampartypaper"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+    </li>
+    </ul>
+
+    <footer class="pagamentos d-flex col-12">
+      <h4 class="h4navbottom p-2 mb-0">Formas de Pagamento: </h4>
+      <img class="w-25 p-2 h-25 bg-transparent img-fluid" src="../img/pagamento.png" alt="pagamento">
+
+      <h4 class="h4navbottom p-2 mb-0">Métodos de Envio: </h4>
+      <img class="w-25 p-2 h-25 bg-transparent img-fluid" src="../img/formas_envio.webp" alt="pagamento">
+    </footer>
+
+  </nav>
+
+ <!-- rodapé -->
+          
+          <script src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+          <script src="../js/index.js"></script>
+                    
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+          
+        </body>
+</html>
